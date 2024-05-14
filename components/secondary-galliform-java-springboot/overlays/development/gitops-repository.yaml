@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: secondary-galliform-java-springboot-gitops-repository
+spec:
+  url: https://github.com/prietyc123-qe-org/secondary-galliform-java-springboot-gitops
